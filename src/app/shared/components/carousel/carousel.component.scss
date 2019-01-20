@@ -1,9 +1,22 @@
-.img-height {
+.img-style {
     background-repeat: no-repeat;
     background-size: cover;
     height: 600px;
 
-    @media screen and (max-width: 768px) {
+    @media screen and (max-width: 992px) {
         height: 400px;
+    }
+}
+::ng-deep {
+    .carousel-item {
+        transition: opacity 3s ease !important;
+        position: absolute !important;
+        display: block !important;
+        opacity: 0;
+    }
+
+    .carousel-item.active {
+        position: relative !important;
+        opacity: 1;
     }
 }

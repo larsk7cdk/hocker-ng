@@ -8,10 +8,10 @@ import { NgbCarouselConfig } from '@ng-bootstrap/ng-bootstrap';
     providers: [NgbCarouselConfig], // add NgbCarouselConfig to the component providers
 })
 export class CarouselComponent implements OnInit {
-    @Input() images: [];
+    @Input() Images: [];
 
     constructor(config: NgbCarouselConfig) {
-        config.interval = 2000;
+        config.interval = 10000;
         config.wrap = true;
         config.keyboard = false;
         config.pauseOnHover = false;
