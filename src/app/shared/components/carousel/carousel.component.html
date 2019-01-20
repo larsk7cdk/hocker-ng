@@ -1,7 +1,7 @@
 <ngb-carousel *ngIf="images" [showNavigationArrows]="false">
     <ng-template ngbSlide *ngFor="let image of images">
         <div class="row">
-            <div class="col"><img [src]="image" alt="Random slide" /></div>
+            <div class="col"><div [style.background-image]="'url(' + image + ')'" class="img-height"></div></div>
         </div>
     </ng-template>
 </ngb-carousel>
