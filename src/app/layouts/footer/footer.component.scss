@@ -1,5 +1,7 @@
+@import '../../../styles';
+
 .footer {
-    background-color: #76BB50;
+    background-color: $app-bg-green-light;
     padding: 10px;
     left: 0;
     bottom: 0;
@@ -8,6 +10,6 @@
     //position: fixed;
 }
 
-.footer-card{
-  background-color: #458D39;
+.footer-card {
+    background-color: $app-bg-green-dark;
 }
