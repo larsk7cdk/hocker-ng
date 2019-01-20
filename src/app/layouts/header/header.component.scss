@@ -1,8 +1,7 @@
-@import "../../../styles";
+@import "~src/styles";
 
 .header {
-    background-color: $app-bg-green-light;
-    //background-color: #eee;
+    //background-color: $app-bg-green-light;
     padding: 16px;
     height: 100px;
 }
